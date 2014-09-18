@@ -1,3 +1,19 @@
-body {
-	background-color: #cccccc;
+body
+{
+background-color: white
+}
+  li {
+    list-style: none;
+	 padding-right:20px;
+	 display:inline-block;
+   }
+.banner{
+	background:url(image/banner.jpg);
+	height:602px;
+	width:100%;
+	}
+.menu{
+      background-color:#00BFFF;
+	  height:115px;
+	width:100%;
 }
