@@ -1,19 +1,86 @@
-body
-{
-background-color: white
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0; /* обнуляем внешние отступы */
+    padding: 0; /* обнуляем внутренние отступы */
+    border: 0; /* убираем бордюры */
+    outline: 0; /* убираем контуры */
+    font-size: 100%; /* задаем базовый размер шрифта, значение по умолчанию = 16px */
+    vertical-align: baseline; /* устанавливаем базовое вертикальное выравнивание */
+    background: transparent; /* устанавливаем фон прозрачным */
 }
-  li {
-    list-style: none;
-	 padding-right:20px;
-	 display:inline-block;
-   }
-.banner{
-	background:url(image/banner.jpg);
-	height:602px;
-	width:100%;
-	}
+body {
+    line-height: 1; /* устанавливаем базовую высоту */
+}
+ol, ul {
+    list-style: none; /* убираем маркеры для нумерованных и обычных списков */
+}
+blockquote, q {
+    quotes: none; /* убираем кавычки для цитат */
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: ''; /* убираем */
+    content: none; /* и скрываем генерируемое содержимое */
+}
+:focus {
+
+    outline: 0; /* убираем контуры вокруг ссылок при фокусе */
+}
+ins {
+    text-decoration: none; /* убираем подчеркивание для вставленного текста */
+}
+
+del {
+    text-decoration: line-through; /* убираем перечеркивание для удаленного текста */
+}
+table {
+    border-collapse: collapse; /* убираем рамки двойной толщины */
+    border-spacing: 0; /* убираем расстояние между ячейками */
+}
+
+.container{
+		max-width: 75%;
+		min-width: 960px;
+		margin: 0 auto;
+		padding: 0;
+            }
 .menu{
-      background-color:#00BFFF;
-	  height:115px;
-	width:100%;
-}
+		background-color:;
+		height:115px;
+		width:100%;
+			}
+ul{
+ float:right;
+} 
+li{ 
+         float:left;
+         list-style:none;
+	     padding:20px;
+	     margin:10px;
+	     display:inline-block;
+            }
+A {
+        color: gray;
+		text-decoration: none;		
+           }
+ 
+A:hover{
+    color: #00BFFF; 
+   }
+
+
+
+
+
+
+
+
+
+
